@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"lib": [],
+		"baseUrl": ".",
+		"paths": {
+			"async-lock": [
+				"ts-types.d.ts"
+			],
+		},
+		"sourceMap": true,
+		"module": "commonjs",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"outDir": "tsc-dist",
+		"allowJs": true,
+		"target": "es2020",
+		"strict": false,
+		"noUnusedParameters": false,
+		"noUnusedLocals": false,
+		"experimentalDecorators": true,
+		"allowUnreachableCode": true
+	}
+}

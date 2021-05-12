@@ -1,0 +1,35 @@
+{
+  "name": "blob-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.7.0",
+    "@azure/event-hubs": "^2.1.3",
+    "@azure/storage-blob": "^12.1.2",
+    "@elastic/elasticsearch": "^7.7.1",
+    "@types/lodash": "^4.14.154",
+    "@types/string-hash": "^1.1.1",
+    "@types/uuid": "^8.0.0",
+    "applicationinsights": "^1.7.6",
+    "azure-storage": "^2.10.3",
+    "bluebird": "^3.7.2",
+    "bottleneck": "^2.19.5",
+    "documentdb": "^1.15.3",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "module-alias": "^2.2.2",
+    "moment": "^2.26.0",
+    "pubsub-js": "^1.9.0",
+    "serialize-error": "^7.0.1",
+    "sorted-set": "^0.3.0",
+    "string-hash": "^1.1.3",
+    "uuid": "^3.4.0"
+  }
+}
